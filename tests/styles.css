@@ -1,0 +1,122 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333333;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.navbar {
+  background-color: #333333;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #cccccc;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  margin-top: 0;
+}
+
+.content p {
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+
+.error-message {
+  background-color: #ffcccc;
+  border: 1px solid #ff0000;
+  padding: 10px;
+  margin: 20px;
+}
+
+.success-message {
+  background-color: #ccffcc;
+  border: 1px solid #00cc00;
+  padding: 10px;
+  margin: 20px;
+}
+
+.button {
+  background-color: #333333;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #444444;
+}
+
+.button-primary {
+  background-color: #4CAF50;
+  color: #ffffff;
+}
+
+.button-primary:hover {
+  background-color: #3e8e41;
+}
+
+.button-secondary {
+  background-color: #666666;
+  color: #ffffff;
+}
+
+.button-secondary:hover {
+  background-color: #555555;
+}
